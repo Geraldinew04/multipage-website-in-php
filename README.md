@@ -3,7 +3,7 @@
 
 ## Demande du client : 
     Un site multipage en PHP avec un formulaire de contact fonctionnel
-    [Lien Github du projet][https://github.com/becodeorg/Johnson2/tree/master/projets/multipage-website-in-php]
+    [Lien Github du projet](https://github.com/becodeorg/Johnson2/tree/master/projets/multipage-website-in-php)
     
 ## Durée : 7 jours ouvrables
 
