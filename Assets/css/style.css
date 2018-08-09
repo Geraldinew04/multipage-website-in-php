@@ -1,0 +1,155 @@
+/**********RESET CSS**********/
+html {
+  box-sizing: border-box; 
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-size: auto; 
+}
+
+/***********HEADER**********/
+html {
+	background-color: rgb(228, 228, 228) ;
+}
+
+body{
+	
+	width: 95%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("../../Assets/images/white.jpg");
+	background-repeat: repeat-y;
+	background-size: cover;
+}
+
+
+
+/**********HEADER JUMBOTRON**********/
+
+.jumbotron{
+	padding: 1%;
+	background-image: url("../../Assets/images/endometriose.jpg");
+	background-size: contain;
+}
+
+.items{
+	position: relative;
+	position: sticky;
+	padding: 0;
+}
+
+#logo{
+	width: 250px;
+	height: 250px;
+}
+
+#logo img{
+	width: 100%;
+	height: 100%;
+	border-radius: 25%;
+}
+
+#my-nav{
+	padding: 0;
+}
+
+.bg-default{
+	background: linear-gradient(to left, rgba(255, 193, 7,0.3), rgba(255, 193, 7, 0.8));
+}
+
+/*.navbar{
+	width: 100%;
+}*/
+
+.nav-item{
+	font-size: 1.1em;
+	padding-left: 3.5em; 
+}
+
+.nav-item:hover{
+   /* background-color: ;*/
+   color: rgb(108, 117, 125);
+   border-bottom: solid rgb(108, 117, 125);
+   font-size: 1.1em;
+   padding-left: 3.5em;
+}
+
+/***********RESEAUX SOCIAUX***********/
+
+#reseaux_sociaux{
+	height: 100px;
+	float: right;
+}
+
+#facebook{
+	color: rgb(59,89,152);
+}
+
+#instagram{
+	color: rgb(205, 72, 107);
+}
+
+#mail{
+	margin-top: 50%;
+	color: rgb(80, 94, 114);
+}
+
+/***********FOOTER**********/
+.container_footer{
+		background: linear-gradient(to left, rgba(255, 193, 7,0.5), rgba(255, 193, 7, 0.8));
+		color: white;
+}
+
+.logoSL{
+	width: 150px;
+	height: 100px;
+}
+
+.logoSL img{
+	width: 100%;
+	height: 100%;
+}
+
+.liensUtiles{
+	list-style: none;	
+}
+
+.liensUtiles a{
+	color: white;
+}
+
+.liensUtiles a:hover{
+    background-color: #C0C0C0;
+}
+
+#mail1, #facebook1, #instagram1{
+	color: #FFF;
+}
+/**********COMMANDER**********/
+.title_form h1{
+	padding: 5%;
+	text-align:center;
+	color: rgb(108, 117, 125);
+}
+
+#myform{
+	background-color: white;
+	padding: 5%;
+}
+/**********INFOS**********/
+.title_info h1{
+	padding: 15%;
+	text-align:center;
+	color: rgb(108, 117, 125);
+}
+
