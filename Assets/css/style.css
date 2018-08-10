@@ -22,7 +22,6 @@ html {
 }
 
 body{
-	
 	width: 95%;
 	height: auto;
 	margin-left: auto;
@@ -30,9 +29,10 @@ body{
 	background-image: url("../../Assets/images/white.jpg");
 	background-repeat: repeat-y;
 	background-size: cover;
+	font-size: 1em;
+	font-style: 'Roboto', sans-serif;
+
 }
-
-
 
 /**********HEADER JUMBOTRON**********/
 
@@ -84,9 +84,39 @@ body{
    padding-left: 3.5em;
 }
 
+/**********HOME**********/
+
+h2{
+	font-family: 'Roboto Slab', serif;
+}
+.main_container{
+	margin: 5%;
+}
+
+#main{
+	background-color: white;
+	padding: 5%;
+}
+
+ul{
+	list-style: circle;
+}
+
+.phrase{
+	font-style: 'Roboto Slab', serif;
+}
+
+/**********ASIDE**********/
+.aside{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding: 5%;
+}
+
 /***********RESEAUX SOCIAUX***********/
 
-#reseaux_sociaux{
+/*#reseaux_sociaux{
 	height: 100px;
 	float: right;
 }
@@ -102,9 +132,10 @@ body{
 #mail{
 	margin-top: 50%;
 	color: rgb(80, 94, 114);
-}
+}*/
 
 /***********FOOTER**********/
+
 .container_footer{
 		background: linear-gradient(to left, rgba(255, 193, 7,0.5), rgba(255, 193, 7, 0.8));
 		color: white;
@@ -135,8 +166,9 @@ body{
 #mail1, #facebook1, #instagram1{
 	color: #FFF;
 }
+
 /**********COMMANDER**********/
-.title_form h1{
+.title_form h1, .title_info h1{
 	padding: 5%;
 	text-align:center;
 	color: rgb(108, 117, 125);
@@ -146,7 +178,9 @@ body{
 	background-color: white;
 	padding: 5%;
 }
+
 /**********INFOS**********/
+
 .title_info h1{
 	padding: 15%;
 	text-align:center;

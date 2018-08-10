@@ -105,7 +105,7 @@ $mail->setFrom($email, $san_FirstName . ' ' . $san_LastName);
 //Set an alternative reply-to address
 //$mail->addReplyTo('replyto@example.com', 'First Last');
 //Set who the message is to be sent to
-$mail->addAddress('gwinand.web@gmail.com', 'G Dub');
+$mail->addAddress('gigidubbleu@gmail.com', 'G Dub');
 //Set the subject line
 $mail->Subject = 'Nouvelle commande';
 //Read an HTML message body from an external file, convert referenced images to embedded,

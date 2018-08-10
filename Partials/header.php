@@ -13,10 +13,20 @@
 
 		<link rel="stylesheet" type="text/css" href="Assets/css/style.css">
 
+		<!-- font-style -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
 
 		<!--Font awesome -->
 
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+		<!-- manifest -->
+		<link rel="manifest" href="manifest.json">
+		<link rel="apple-touch-icon" sizes="180x180" href="Assets/images/icon512.jpg">
+		<link rel="icon" type="image/jpg" sizes="32x32" href="Assets/images/icon512.jpg">
+		<link rel="icon" type="image/jpg" sizes="16x16" href="Assets/images/icon512.jpg">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
 
 	<title>Multipage siteweb</title>
 
