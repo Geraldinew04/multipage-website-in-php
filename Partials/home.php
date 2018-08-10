@@ -20,9 +20,9 @@
 					</ul>
 
 				<div class="phrase">
-					<h6>Il n’est pas « normal » d’avoir mal…</h6>
-					<h6>Si vous avez le moindre doute, parlez en à votre gynécologue.</h6>
-					<h6>Ensemble pour sortir l’endométriose de l’ombre.</h6>
+					<h6><em>Il n’est pas « normal » d’avoir mal…</em></h6>
+					<h6><em>Si vous avez le moindre doute, parlez en à votre gynécologue.</em></h6>
+					<h6><em>Ensemble pour sortir l’endométriose de l’ombre.</em></h6>
 					
 				</div>
 				

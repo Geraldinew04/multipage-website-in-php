@@ -62,17 +62,17 @@
      		<div class="col-sm-4">
      			<div class="row">
 					<div class="col-sm-4">
-						<a href="" title="lien mail">
+						<a href="mailto:endobelgique@hotmail.com" title="lien mail" target="_blank">
 							<i class="far fa-envelope fa-2x"  id="mail1" ></i>
 						</a>
 					</div>  
 					<div class="col-sm-4">
-						<a href="" title="lien facebook">
+						<a href="https://www.facebook.com/EndoBelgique/" title="lien facebook" target="_blank">
 							<i class="fab fa-facebook-square fa-2x" id="facebook1"></i>
 						</a>
 					</div>  
 					<div class="col-sm-4">
-						<a href="" title="lien instagram">
+						<a href="https://www.instagram.com/endometriosebelgique/?hl=fr" title="lien instagram" target="_blank">
 							<i class="fab fa-instagram fa-2x" id="instagram1"></i>
 						</a>
 					</div> 				
