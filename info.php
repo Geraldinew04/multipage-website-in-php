@@ -1,6 +1,6 @@
 <?php include('Partials/header.php') ?>
 
-<div class="title_info">
+<div class="title">
 
 	<h1>Liste des spécialistes</h1>
 	

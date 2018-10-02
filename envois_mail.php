@@ -1,9 +1,9 @@
 <?php
 include('acces.php');
-$nom = htmlspecialchars($_POST['nom']);
-$prenom = htmlspecialchars($_POST['prenom']);
-$mail_U = trim(htmlspecialchars($_POST['mail']));
-$objet = htmlspecialchars($_POST['objet']);
+$nom = htmlspecialchars($_POST['LastName']);
+$prenom = htmlspecialchars($_POST['FirstName']);
+$mail_U = trim(htmlspecialchars($_POST['email']));
+var_dump($_POST);
 $message =  htmlspecialchars($_POST['message']);
 $photo =  htmlspecialchars($_FILES['photo']['tmp_name']);
 
@@ -68,11 +68,11 @@ $mail->Username = mail_acces;
 
 $mail->Password = mdp_acces;
 
-$mail->setFrom('testdevnoreply@gmail.com', 'NO REPLY');
+$mail->setFrom($mail_U, $nom);
 
-$mail->addReplyTo('testdevnoreply@gmail.com', 'NO REPLY');
+// $mail->addReplyTo('testdevnoreply@gmail.com', 'NO REPLY');
 
-$mail->addAddress($mail_U, $nom);
+$mail->addAddress('gigidubbleu@gmail.com', 'G Dub');
 
 $mail->Subject = $objet;
 
@@ -80,7 +80,7 @@ $mail->Subject = $objet;
 $img = "<img src='' alt='ceci est une image'/>";
 $mail->Body = $message;
 
-$mail->AltBody = 'Ceci est un message texte';
+// $mail->AltBody = 'Ceci est un message texte';
 
 $mail->addAttachment($_FILES['photo']['name']);
 
@@ -109,7 +109,7 @@ echo "Donnees sauvegardées";
 
 <script>
 
-setTimeout(function(){ window.location = "formulaire_mail.php";; }, 2000);
+// setTimeout(function(){ window.location = "formulaire_mail.php";; }, 2000);
 </script>
 
 

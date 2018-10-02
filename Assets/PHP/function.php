@@ -84,7 +84,7 @@ $mail->isSMTP();
 // 0 = off (for production use)
 // 1 = client messages
 // 2 = client and server messages
-$mail->SMTPDebug = 2;
+$mail->SMTPDebug = 0;
 //Set the hostname of the mail server
 $mail->Host = 'smtp.gmail.com';
 // use
@@ -117,15 +117,21 @@ $mail->Body = $mailContent;
 //Attach an image file
 //$mail->addAttachment('images/phpmailer_mini.png');
 //send the message, check for errors
-if (!$mail->send()) {
-    echo "Mailer Error: " . $mail->ErrorInfo;
-} else {
-    echo "Message sent!";
+$mail->send();
+//     echo "Mailer Error: " . $mail->ErrorInfo;
+// } else {
+    // echo "Message sent!";
     //Section 2: IMAP
     //Uncomment these to save your message in the 'Sent Mail' folder.
     #if (save_mail($mail)) {
     #    echo "Message saved!";
     #}
-}
+	
+
+
+echo '<script type="text/javascript">
+           window.location = "http://localhost/multipage-website-in-php/commande.php?messageStatus=sent"
+      </script>';
+die();
 
 ?>

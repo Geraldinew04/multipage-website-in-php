@@ -21,14 +21,15 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 		
 		<!-- UP UP PWA --> 
-		    <script src="upup.min.js"></script>
-         <script>
+		
+		<!-- <script src="upup.min.js"></script>
+        <script>
                 UpUp.start({
                   'content-url': 'index.php',
                   'assets': ['Partials/header.php', 'Partials/footer.php', 'formulaire_mail.php', 'formulaire_contact.css', 'Assets/css/style.css', 'index.php', 'Partials/aside.php', 'Partials/menu.php','Assets/images/endometriose.jpg', 'Assets/images/logo.jpg','Assets/images/esoftlove.jpg', 'Assets/images/white.jpg','Assets/images/yellow.jpg', 'commande.php', 'info.php', 'verif_formulaire.js']
                 });
      
-        </script>
+        </script> -->
 
 		<!-- manifest -->
 		<link rel="manifest" href="manifest.json">

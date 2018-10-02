@@ -1,17 +1,18 @@
 let button = document.getElementById('button_form');
-let nom = document.getElementById('nom');
-let prenom = document.getElementById('prenom');
-let mail = document.getElementById('mail');
+let nom = document.getElementById('LastName');
+let prenom = document.getElementById('Firstname');
+let mail = document.getElementById('email');
 let form = document.getElementById('form_contact');
-  console.log("coucous");
+/* let test = nom.p;
+ */console.log(nom.value);
 function surligne(champ, erreur)
 {
-   if(erreur){
-      champ.style.border = "1px solid #fba";
-   }
-   else{
-      champ.style.backgroundColor = "";
-   }
+    if(erreur){
+        champ.style.border = "1px solid #fba";
+    }
+    else{
+        champ.style.backgroundColor = "";
+    }
 }
 
 
@@ -23,9 +24,10 @@ function verifNom(noms){
     }
     
     else{surligne(nom, false);}
-}
-verifNom(nom.value);
-
+/*     console.log(nom);
+ */}
+/* verifNom(nom.value);
+ */
 // FUCNTION POUR VERIFIER LE CHAMP PRENOM DANS LE FORMULAIRE
 
 function verifPrenom(prenoms){
@@ -35,8 +37,8 @@ function verifPrenom(prenoms){
     
     else{surligne(prenom, false);}
 }
-verifNom(prenom.value);
-
+/* verifNom(prenom.value);
+ */
 // FUCNTION POUR VERIFIER LE CHAMP MAIL DANS LE FORMULAIRE
 function verifMail(mails)
 {
@@ -58,6 +60,7 @@ function verifMail(mails)
 
 
 button.addEventListener('click', function(){
+    console.log(nom.value);
     verifNom(nom.value);
     verifPrenom(prenom.value);
     verifMail(mail.value);

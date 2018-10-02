@@ -22,7 +22,8 @@ html {
 }
 
 body{
-	width: 95%;
+	width: 100%;
+	min-width : 300px;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
@@ -38,6 +39,7 @@ body{
 
 .jumbotron{
 	padding: 1%;
+	margin : 0;
 	background-image: url("../../Assets/images/endometriose.jpg");
 	background-size: contain;
 }
@@ -76,12 +78,10 @@ body{
 	padding-left: 3.5em; 
 }
 
-.nav-item:hover{
-   /* background-color: ;*/
+.nav-item a:hover{
    color: rgb(108, 117, 125);
    border-bottom: solid rgb(108, 117, 125);
-   font-size: 1.1em;
-   padding-left: 3.5em;
+   padding-bottom: .3em;
 }
 
 /**********HOME**********/
@@ -90,7 +90,11 @@ h2{
 	font-family: 'Roboto Slab', serif;
 }
 .main_container{
-	margin: 5%;
+	margin-bottom : 5%;
+	margin-left : 5%;
+
+	
+
 }
 
 #main{
@@ -112,6 +116,7 @@ ul{
 	flex-direction: row;
 	justify-content: flex-end;
 	padding: 5%;
+	justify-content: center;
 }
 
 /***********RESEAUX SOCIAUX***********/
@@ -159,25 +164,46 @@ ul{
 	color: white;
 }
 
-.liensUtiles a:hover{
+/* .liensUtiles a:hover{
     background-color: #C0C0C0;
-}
+} */
 
 #mail1, #facebook1, #instagram1{
 	color: #FFF;
 }
 
+#mail1:hover{
+	color : #c03c32;
+}
+
+#facebook1:hover{
+	color : rgb(59, 89, 152);
+}
+
+#instagram1:hover{
+	color : #c13584;
+}
+/**********CONTACT***********/
+
+
 /**********COMMANDER**********/
-.title_form h1, .title_info h1{
+.title{
 	padding: 5%;
 	text-align:center;
 	color: rgb(108, 117, 125);
 }
 
-#myform{
+#myform, #form_contact {
 	background-color: white;
 	padding: 5%;
 }
+
+.form-group textarea{
+	width : 100%;
+	height : 100px;
+	padding: 3%;
+}
+
 
 /**********INFOS**********/
 
